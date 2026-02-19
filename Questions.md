@@ -17,12 +17,22 @@ Réponse:
 Le ficheir n'est pas lisible, il est compressé et sans indentation, de vue éco-responsable, l'interet de minifier les fichiers est pour avoir moins de temps CPU navigateur, moins de données transférées, moins d’énergie réseau. Par contre en mode dev on vveut lire le code, avoir des traces claires et debugger
 # Q4 : Donner la tailles des fichiers générer par la commande.
 Réponse:
+dist/index.html                   0.46 kB │ gzip:  0.30 kB
+dist/assets/react-CHdo91hT.svg    4.13 kB │ gzip:  2.05 kB
+dist/assets/index-Ck_6z9u0.css    5.65 kB │ gzip:  1.40 kB
+dist/assets/index-DjOYzNxq.js   144.35 kB │ gzip: 46.39 kB
 
 # Q5: Quel est l'intérêt du HMR ?
 Réponse:
-
+Le Hot Module Reload permet le chargement automatique deset instantané du navigateur sans recharger react, cela permet un gain de temps et une rpoductivité rapided
 # Q6: Donner la tailles des fichiers générer par la commande. Pourquoi il faut être vigilant sur les libraires et autre composant qu'on ajoute dans nos applications d'un point de vue éco-responsable ?
 Réponse:
+dist/index.html                   0.46 kB │ gzip:  0.30 kB
+dist/assets/react-CHdo91hT.svg    4.13 kB │ gzip:  2.05 kB
+dist/assets/index-Ck_6z9u0.css    5.65 kB │ gzip:  1.40 kB
+dist/assets/index-CXkX2fal.js   157.22 kB │ gzip: 51.92 kB
+
+Il faut etre vigilant et éviter d’ajouter des dépendances, car chaque librairie augmente le poids JS, augmente le temps de chargement, augmente la consommation énergétique
 
 # Q7: Noter les nom des différents fichiers qui ont été générés par la commande.
 Réponse:
