@@ -78,18 +78,33 @@ Screen:
 
 # Q12:  Proposition 1
 Description:
+Corriger les erreurs basiques signalées par le lighthouse :
+Images sans alt
+Liens sans nom discernable
+Absence de <main>
+Mauvais ordre des headings
+
+J'ai ajouté alt à l'image dans main.js et j'ai modifié le header h5 en h2 pou respecter l'hierarchie et j'ai tout encapsulé dans main
+résultat accesibilité = 80
 Nb de requête total du parcours de l'utilisateur:
-Taille total des requêtes du parcours de l'utilisateur:
-Taille total des fichiers généré :
+Taille total des requêtes du parcours de l'utilisateur: identique
+Taille total des fichiers généré : plus legers
 
 # Q13:  Proposition 2
 Description:
+Modifier les couleurs CSS en évitant texte gris clair sur fond violet par exemple
+résultat accesibilité +84
 Nb de requête total du parcours de l'utilisateur:
-Taille total des requêtes du parcours de l'utilisateur:
-Taille total des fichiers généré :
+Taille total des requêtes du parcours de l'utilisateur: identique
+Taille total des fichiers généré : identique
 
 # Q14:  Proposition 3
-Description:
+Description: Éviter les div inutiles, par exemple dans main.js on a <div class="header">, je remplace par <header>
+Il faut aussi essayer d'utiliser au maximum des balises sémantiques, donc au lieu de .topnav utiliser <nav> remplacer .footer par <footer> etc..
+
+résultat : accessibilité 89
+![alt text](image-1.png)
 Nb de requête total du parcours de l'utilisateur:
-Taille total des requêtes du parcours de l'utilisateur:
+Taille total des requêtes du parcours de l'utilisateur: identique
 Taille total des fichiers générés :
+Légèrement réduite

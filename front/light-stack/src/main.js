@@ -2,13 +2,17 @@ import { initQuizz } from './quizz.js';
 import './style.css';
 
 document.querySelector('#app').innerHTML = `
-        <div class="header">
-          <h1>My Quizz</h1>
-          Pour accéder a la page /about <a href="about/">click ici</a>
-        </div>
+<main id="main-content">
 
+  <header>
+    <h1>My Quizz</h1>
+    <p>
+      Pour accéder à la page /about 
+      <a href="about/">Cliquez ici</a>
+    </p>
+  </header>
 
-        <div class="topnav">
+  <nav class="topnav" aria-label="Réseaux sociaux">
           <a href="#" class="fa fa-facebook"></a>
           <a href="#" class="fa fa-twitter"></a>
           <a href="#" class="fa fa-google"></a>
@@ -29,29 +33,40 @@ document.querySelector('#app').innerHTML = `
           <a href="#" class="fa fa-yahoo"></a>
           <a href="#" class="fa fa-reddit"></a>
           <a href="#" class="fa fa-rss"></a>
-        </div>
+  </nav>
 
-        <div class="row">
-          <div class="leftcolumn">
-            <div class="card">
-              <h1>Nom étudiant</h1>
-              <h5>description</h5>
-              <div id="quiz">
-                <h1>A TOI DE JOUER</h1>
-                <div id="question"></div>
-                <div id="proposals"></div>
-              </div>
-            </div>
-          </div>
-          <div class="rightcolumn">
-            <div class="card">
-              <img src="/question.gif" width="500" height="600">
-            </div>
-        </div>
+  <section class="row">
+    <section class="leftcolumn">
+      <article class="card">
+        <h2>Nom étudiant</h2>
+        <p>Description</p>
 
-        <div class="footer">
-          <h2>@2024</h2>
-        </div>
-`
+        <section id="quiz">
+          <h3>A TOI DE JOUER</h3>
+          <div id="question"></div>
+          <div id="proposals"></div>
+        </section>
+
+      </article>
+    </section>
+
+    <aside class="rightcolumn">
+      <div class="card">
+        <img 
+          src="/question.gif" 
+          alt="Illustration représentant un point d'interrogation"
+          width="500"
+          height="600"
+        >
+      </div>
+    </aside>
+  </section>
+
+  <footer>
+    <p>@2024</p>
+  </footer>
+
+</main>
+`;
 
 initQuizz();

@@ -25,7 +25,7 @@ body {
   display:flex;
   justify-content: center;
   overflow: hidden;
-  background: purple;
+  background: white;
 }
 
 .topnav a {
@@ -36,7 +36,7 @@ body {
 }
 
 .topnav a:hover {
-  background: purple;
+  background: white;
   color: black;
 }
 
@@ -48,12 +48,12 @@ body {
 .rightcolumn {
   float: left;
   width: 25%;
-  background-color: purple;
+  background-color: black;
   padding-left: 20px;
 }
 
 .card {
-  background-color: purple;
+  background-color: black;
   padding: 20px;
   margin-top: 20px;
 }
