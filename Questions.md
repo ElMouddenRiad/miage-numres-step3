@@ -74,7 +74,7 @@ Charger uniquement ce qui est nécessaire et réduire le JS initial donc moins d
 
 # Q11: Ajouter le screen de votre score :
 Screen:
-
+![alt text](image.png)
 
 # Q12:  Proposition 1
 Description:
