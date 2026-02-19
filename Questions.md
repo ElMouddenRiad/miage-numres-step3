@@ -50,13 +50,26 @@ dist/assets/main-QCVwn2m0.js    3.19 kB │ gzip: 1.13 kB
 
 # Q8 : Noter les nom des différents fichiers .js qui sont chargés au moment du chargement de la page.
 Réponse:
+main-QCVwn2m0.js
+style-Dgd37vtf.js
+local-storage.js
+util.js
+fte-utils.js
+express-fte.js
+etc..
+vendor.js
 
 # Q9 : Noter les nom des différents fichiers .js qui sont chargés au moment du changement de page.
 Réponse:
+about-D08RWGIN.js
+style-Dgd37vtf.js
+etc...
+C’est du code splitting
 
 
 # Q10: Quel est l'intérêt de lu Code Splitting d'un point de vue éco-responsable ?
 Réponse:
+Charger uniquement ce qui est nécessaire et réduire le JS initial donc moins d’énergie consommée.
 
 
 # Q11: Ajouter le screen de votre score :
